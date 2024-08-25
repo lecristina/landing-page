@@ -8,8 +8,25 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(7, 10, 44);
+
+}
+
 .cabecalho{
     display: flex;
+    background-color: rgb(134, 207, 255);
+    font-weight: 600;
+}
+
+.links-cabecalho-home {
+    display: flex;
+    margin-left: 6%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(5, 5, 5);
 }
 
 .links-cabecalho {
@@ -18,7 +35,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-decoration: none;
-    color: rgb(106, 102, 102);
+    color: rgb(62, 61, 61);
 }
 
 .logo-t {
@@ -29,6 +46,7 @@
     height: 10vh;
     width: 20%;
     text-decoration: none;
+    font-weight: bold;
     color: black;
 }
 
@@ -44,21 +62,36 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 5%;
+    
 
 }
 
 .textos {
-    padding-right: 10%;
+    padding-right: 8%;
+    
 }
 
 .titulo-corpo{
     font-family: "Mulish", sans-serif;
     font-weight: bold;
     margin-bottom: 25px;
+    background-color: rgb(219, 237, 251);
+    border-radius: 20px 40px;
+    padding: 2%;
+    padding-left: 3%;
+    width: 77%;
 }
 
 .paragrafo-corpo {
     padding-right: 7%;
+    border-radius: 20px 40px;
+    padding: 2%;
+    padding-left: 3%;
+    width: 77%;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
 }
 
 .decoracao {
